@@ -37,7 +37,7 @@
   <link href="<?= base_url() ?>/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="<?= base_url() ?>/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="<?= base_url() ?>/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+  
   <!-- Template Main CSS File -->
   <link href="<?= base_url() ?>/assets/css/style.css" rel="stylesheet">
 
@@ -228,12 +228,12 @@
           </p> 
         </div>
 
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in">
             <div class="icon-box icon-box-pink">
               <div class="icon"><i class="bx bx-globe"></i></div>
               <h4 class="title">
-                <a href="">Undangan Website</a>
+                <a href="#">Undangan Website</a>
               </h4>
               <p class="description">
                 Undangan Digital dalam bentuk Website yang siap untuk kamu bagikan kepada teman-teman kamu.
@@ -245,7 +245,7 @@
             <div class="icon-box icon-box-cyan">
               <div class="icon"><i class="bx bx-slideshow"></i></div>
               <h4 class="title">
-                <a href="">Undangan Video</a>
+                <a href="#">Undangan Video</a>
               </h4>
               <p class="description">
                 Undangan Digital dalam bentuk Video, ceritakan momen-momen kamu dengan kualitas terbaik.
@@ -257,7 +257,7 @@
             <div class="icon-box icon-box-green">
               <div class="icon"><i class="bx bx-image"></i></div>
               <h4 class="title">
-                <a href="">Undangan Gambar</a>
+                <a href="#">Undangan Gambar</a>
               </h4>
               <p class="description">
                 Undangan Digital dalam bentuk Gambar, kamu bisa mengundang teman-temanmu untuk datang dalam acaramu.
@@ -268,7 +268,8 @@
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section>
+    <!-- End Services Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
@@ -412,7 +413,89 @@
         </div>
 
       </div>
-    </section><!-- End Portfolio Section -->
+    </section>
+    <!-- End Portfolio Section -->
+
+    <section id="features" class="services section-bg">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Fitur Terbaik</h2>
+          <p>
+            <!-- Kami menyediakan berbagai layanan untuk kamu -->
+          </p> 
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in">
+            <div class="text-center p-4 icon-box-pink">
+              <div class="icon"><i class="bx bx-images"></i></div>
+              <h3 class="title">Tema Menarik</h3>
+              <p>Terdapat berbagai macam pilihan tema dengan desain yang cantik dan elegan</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="100">
+            <div class="text-center p-4 icon-box-pink">
+              <div class="icon"><i class="bx bx-book-heart"></i></div>
+              <h3 class="title">Informasi Pasangan</h3>
+              <p>Semua informasi mempelai tertampil secara lengkap di undangan</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="text-center p-4 icon-box-pink">
+              <div class="icon"><i class="bx bx-time-five"></i></div>
+              <h3 class="title">Waktu & Lokasi</h3>
+              <p>Tersedia fitur penampil waktu dan lokasi akad, resepsi hingga acara unduh mantu</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="text-center p-4 icon-box-pink">
+              <div class="icon"><i class="bx bx-movie-play"></i></div>
+              <h3 class="title">Foto, Video & Musik</h3>
+              <p>Tersedia galeri foto dan video streaming untuk dokumentasi pre/wedding</p>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="text-center p-4 icon-box-pink">
+              <div class="icon"><i class="bx bx-map-alt"></i></div>
+              <h3 class="title">Petunjuk Peta</h3>
+              <p>Tampilan peta lokasi acara yang terintegrasi dengan Google Maps</p>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="text-center p-4 icon-box-pink">
+              <div class="icon"><i class="bx bxs-quote-right"></i></div>
+              <h3 class="title">Couple Story & Quotes</h3>
+              <p>Ceritakan kisah cinta & quotes pernikahanmu kepada tamu undangan</p>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="text-center p-4 icon-box-pink">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h3 class="title">Tamu Undangan</h3>
+              <p>Setiap undangan yang dibagikan akan menampilkan nama tamu secara otomatis</p>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="text-center p-4 icon-box-pink">
+              <div class="icon"><i class="bx bx-timer"></i></div>
+              <h3 class="title">Countdown Timer</h3>
+              <p>Tersedia fitur countdown timer yang dapat berfungsi sebagai pengingat waktu acara</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
 
     <!-- ======= Cta Section ======= -->
     <!-- <section id="cta" class="cta">
@@ -490,10 +573,10 @@
                 <h4>Walter White</h4>
                 <span>Chief Executive Officer</span>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
             </div>
@@ -506,10 +589,10 @@
                 <h4>Sarah Jhonson</h4>
                 <span>Product Manager</span>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
             </div>
@@ -522,10 +605,10 @@
                 <h4>-</h4>
                 <span>CTO</span>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
             </div>
