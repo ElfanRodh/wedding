@@ -5,7 +5,8 @@ class Web extends CI_Controller {
 
   public function index()
   {
-    $this->load->view('web/index');
+    $data['testi'] = $this->db->get_where('testimoni', ['tes_status' => 1]);
+    $this->load->view('web/index', $data);
   }
 
 }

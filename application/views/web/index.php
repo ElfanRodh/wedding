@@ -16,13 +16,13 @@
   <meta name="keywords" content="undangan digital, undangan online, undangan nikah, website undangan, pernikahan, wedding, marriage, nikah, nikah yuk, nikah aja, nikah aja yuk, nikah aja yuk!" />
   <meta name="author" content="" />
   <meta name="robots" content="follow, index" />
-  <meta property="og:image" content="<?= base_url() ?>assets/ogthumbnail.jpg">
-  <meta property="og:image" itemprop="image" content="<?= base_url() ?>assets/ogthumbnail.jpg">
-  <link itemprop="thumbnailUrl" href="<?= base_url() ?>assets/ogthumbnail.jpg">
+  <meta property="og:image" content="<?= base_url() ?>assets/img/icon.png">
+  <meta property="og:image" itemprop="image" content="<?= base_url() ?>assets/img/icon.png">
+  <link itemprop="thumbnailUrl" href="<?= base_url() ?>assets/img/icon.png">
   <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
-    <link itemprop="url" href="<?= base_url() ?>assets/ogthumbnail.jpg">
+    <link itemprop="url" href="<?= base_url() ?>assets/img/icon.png">
   </span>
-  <meta property="og:image" content="<?= base_url() ?>assets/ogthumbnail.jpg" />
+  <meta property="og:image" content="<?= base_url() ?>assets/img/icon.png" />
   <meta property="og:title" content="Nikah Aja Yuk!" />
   <meta property="og:description" content="Nikah Aja Yuk!. Wedding Invitation Website" />
 
@@ -82,6 +82,7 @@
           </li> -->
           <li><a class="nav-link scrollto" href="#services">Layanan Kami</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Desain</a></li>
+          <li><a class="nav-link scrollto " href="#testimonials">Testimoni</a></li>
           <!-- <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li> -->
           <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
         </ul>
@@ -445,70 +446,24 @@
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
 
+            <?php foreach ($testi->result_array() as $k => $v) : ?>
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <!-- Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper. -->
+                  <?= $v['tes_testimoni'] ?>
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="<?= base_url() ?>/assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <!-- <img src="<?= base_url() ?>/assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt=""> -->
+                <h3>
+                  <?= $v['tes_nama'] ?>
+                </h3>
+                <!-- <h4>Ceo &amp; Founder</h4> -->
               </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="<?= base_url() ?>/assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="<?= base_url() ?>/assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="<?= base_url() ?>/assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="<?= base_url() ?>/assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-              </div>
-            </div><!-- End testimonial item -->
+            </div>
+            <!-- End testimonial item -->
+            <?php endforeach; ?>
 
           </div>
           <div class="swiper-pagination"></div>
