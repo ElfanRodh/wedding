@@ -37,7 +37,10 @@
   <link href="<?= base_url() ?>/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="<?= base_url() ?>/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="<?= base_url() ?>/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
   <!-- Template Main CSS File -->
   <link href="<?= base_url() ?>/assets/css/style.css" rel="stylesheet">
 
@@ -47,6 +50,13 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+  <style>
+    @font-face{
+      src: url('<?= base_url() ?>/atemplate/Angelface.otf');
+      font-family: Angelface;
+    }
+  </style>
 </head>
 
 <body>
@@ -55,8 +65,10 @@
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
 
-      <div class="logo me-auto">
-        <h1><a href="<?= site_url() ?>">Nikah Aja Yuk!</a></h1>
+      <div class="logo me-auto py-3">
+        <h1>
+        </h1>
+        <a class="my-3" style="font-family: Pacifico;font-size: 2.5em; color: #ff3fa1;" href="<?= site_url() ?>">Nikah Aja Yuk!</a>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="<?= site_url() ?>"><img src="<?= base_url() ?>/assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -82,6 +94,7 @@
           </li> -->
           <li><a class="nav-link scrollto" href="#services">Layanan Kami</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Desain</a></li>
+          <li><a class="nav-link scrollto " href="#features">Fitur</a></li>
           <li><a class="nav-link scrollto " href="#testimonials">Testimoni</a></li>
           <!-- <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li> -->
           <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
@@ -108,13 +121,14 @@
           <div>
             <h1>Buat momen spesialmu jadi lebih spesial</h1>
             <h2>Buat Undangan Pernikahan ala anak muda yang simpel dan kekinian</h2>
-            <a href="#services" class="btn-get-started scrollto">
-              <i class="bi bi-arrow-down"></i>
+            <a href="#services" class="btn-get-started scrollto py-1 px-4">
+              <i class="bi bi-arrow-down-short" style="font-size: 28px"></i>
             </a>
           </div>
         </div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
-          <img src="<?= base_url() ?>/assets/img/front.png" class="img-fluid" alt="">
+        <!-- <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left"> -->
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" style="transform-style: preserve-3d" data-tilt>
+          <img src="<?= base_url() ?>/assets/img/front.png" class="img-fluid" alt="" style="transform: translateZ(20px)">
         </div>
       </div>
     </div>
@@ -931,7 +945,7 @@
               <div class="social-links mt-3">
                 <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
                 <!-- <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> -->
-                <a href="https://instagram.com/fasttechsolution?utm_medium=copy_link" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a target="_blank" href="https://instagram.com/fasttechsolution?utm_medium=copy_link" class="instagram"><i class="bx bxl-instagram"></i></a>
                 <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
                 <!-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
               </div>
@@ -942,9 +956,11 @@
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li> -->
               <li><i class="bx bx-chevron-right"></i> <a href="#services">Layanan Kami</a></li>
-              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li> -->
+              <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Desain</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#features">Fitur</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#testimonials">Testimoni</a></li>
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li> -->
               <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
             </ul>
           </div>
@@ -998,6 +1014,9 @@
 
   <!-- Template Main JS File -->
   <script src="<?= base_url() ?>/assets/js/main.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
 
 </body>
 
