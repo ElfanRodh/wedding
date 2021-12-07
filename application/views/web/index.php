@@ -2,16 +2,30 @@
 <html lang="en">
 
 <head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Nikah Aja Yuk!</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
+  
   <!-- Favicons -->
-  <link href="<?= base_url() ?>/assets/img/favicon.png" rel="icon">
-  <link href="<?= base_url() ?>/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="icon" type="image/png" href="<?= base_url() ?>assets/img/icon.png">
+  <link type="image/png" href="<?= base_url() ?>assets/img/icon.png" rel="apple-touch-icon">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="description" content="Nikah Aja Yuk!. Wedding Invitation Website" />
+  <meta name="keywords" content="undangan digital, undangan online, undangan nikah, website undangan, pernikahan, wedding, marriage, nikah, nikah yuk, nikah aja, nikah aja yuk, nikah aja yuk!" />
+  <meta name="author" content="" />
+  <meta name="robots" content="follow, index" />
+  <meta property="og:image" content="<?= base_url() ?>assets/ogthumbnail.jpg">
+  <meta property="og:image" itemprop="image" content="<?= base_url() ?>assets/ogthumbnail.jpg">
+  <link itemprop="thumbnailUrl" href="<?= base_url() ?>assets/ogthumbnail.jpg">
+  <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+    <link itemprop="url" href="<?= base_url() ?>assets/ogthumbnail.jpg">
+  </span>
+  <meta property="og:image" content="<?= base_url() ?>assets/ogthumbnail.jpg" />
+  <meta property="og:title" content="Nikah Aja Yuk!" />
+  <meta property="og:description" content="Nikah Aja Yuk!. Wedding Invitation Website" />
+
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
