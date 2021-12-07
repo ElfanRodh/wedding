@@ -278,6 +278,7 @@
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
+          <!-- Basic -->
           <div class="col-lg-6 col-md-6 portfolio-item filter-basic">
             <div class="portfolio-wrap text-center">
               <img src="<?= base_url() ?>/assets/img/mockup/basic1.png" class="img-fluid" alt="">
@@ -287,7 +288,7 @@
               </div>
               <div class="portfolio-links">
                 <a href="<?= base_url() ?>/assets/img/mockup/basic1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Basic 1"><i class="bx bx-plus"></i></a>
-                <a target="_blank" href="<?= site_url('basic/theme/1') ?>" title="More Details"><i class="bx bx-link"></i></a>
+                <a target="_blank" href="<?= site_url('basic/theme/1') ?>" title="Demo"><i class="bx bx-globe"></i></a>
               </div>
             </div>
           </div>
@@ -300,7 +301,7 @@
               </div>
               <div class="portfolio-links">
                 <a href="<?= base_url() ?>/assets/img/mockup/basic2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Basic 2"><i class="bx bx-plus"></i></a>
-                <a target="_blank" href="<?= site_url('basic/theme/2') ?>" title="More Details"><i class="bx bx-link"></i></a>
+                <a target="_blank" href="<?= site_url('basic/theme/2') ?>" title="Demo"><i class="bx bx-globe"></i></a>
               </div>
             </div>
           </div>
@@ -313,7 +314,7 @@
               </div>
               <div class="portfolio-links">
                 <a href="<?= base_url() ?>/assets/img/mockup/basic3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Basic 3"><i class="bx bx-plus"></i></a>
-                <a target="_blank" href="<?= site_url('basic/theme/3') ?>" title="More Details"><i class="bx bx-link"></i></a>
+                <a target="_blank" href="<?= site_url('basic/theme/3') ?>" title="Demo"><i class="bx bx-globe"></i></a>
               </div>
             </div>
           </div>
@@ -326,7 +327,7 @@
               </div>
               <div class="portfolio-links">
                 <a href="<?= base_url() ?>/assets/img/mockup/basic4.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Basic 4"><i class="bx bx-plus"></i></a>
-                <a target="_blank" href="<?= site_url('basic/theme/4') ?>" title="More Details"><i class="bx bx-link"></i></a>
+                <a target="_blank" href="<?= site_url('basic/theme/4') ?>" title="Demo"><i class="bx bx-globe"></i></a>
               </div>
             </div>
           </div>
@@ -339,11 +340,12 @@
               </div>
               <div class="portfolio-links">
                 <a href="<?= base_url() ?>/assets/img/mockup/basic5.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Basic 5"><i class="bx bx-plus"></i></a>
-                <a target="_blank" href="<?= site_url('basic/theme/5') ?>" title="More Details"><i class="bx bx-link"></i></a>
+                <a target="_blank" href="<?= site_url('basic/theme/5') ?>" title="Demo"><i class="bx bx-globe"></i></a>
               </div>
             </div>
           </div>
 
+          <!-- Premium -->
           <div class="col-lg-6 col-md-6 portfolio-item filter-premium">
             <div class="portfolio-wrap text-center">
               <img src="<?= base_url() ?>/assets/img/mockup/premium1.png" class="img-fluid" alt="">
@@ -352,8 +354,34 @@
                 <p>Premium 01</p>
               </div>
               <div class="portfolio-links">
-                <a href="<?= base_url() ?>/assets/img/mockup/premium1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a target="_blank" href="<?= site_url('premium') ?>" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="<?= base_url() ?>/assets/img/mockup/premium1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Premium 1"><i class="bx bx-plus"></i></a>
+                <a target="_blank" href="<?= site_url('premium/theme/1') ?>" title="Demo"><i class="bx bx-globe"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 portfolio-item filter-premium">
+            <div class="portfolio-wrap text-center">
+              <img src="<?= base_url() ?>/assets/img/mockup/premium2.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Desain Premium 02</h4>
+                <p>Premium 02</p>
+              </div>
+              <div class="portfolio-links">
+                <a href="<?= base_url() ?>/assets/img/mockup/premium2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Premium 2"><i class="bx bx-plus"></i></a>
+                <a target="_blank" href="<?= site_url('premium/theme/2') ?>" title="Demo"><i class="bx bx-globe"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 portfolio-item filter-premium">
+            <div class="portfolio-wrap text-center">
+              <img src="<?= base_url() ?>/assets/img/mockup/premium3.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Desain Premium 03</h4>
+                <p>Premium 03</p>
+              </div>
+              <div class="portfolio-links">
+                <a href="<?= base_url() ?>/assets/img/mockup/premium3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Premium 3"><i class="bx bx-plus"></i></a>
+                <a target="_blank" href="<?= site_url('premium/theme/3') ?>" title="Demo"><i class="bx bx-globe"></i></a>
               </div>
             </div>
           </div>

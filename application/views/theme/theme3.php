@@ -815,61 +815,61 @@
             <p class="explainbride">Ucapan Selamat & Doa untuk<br>Jendrowati & Sastrowo</p>
           </div>
           <div class="wishspace">
-              <div class="wishcontainer">
-                <form action="#" method="post">
-                  <label for="nama">Nama</label>
-                  <input type="text" id="nama" name="nama" placeholder="Nama.." required>
-                  <label for="ucap">Ucapan</label>
-                  <textarea id="ucap" name="ucap" placeholder="Ucapan Doa & Harapan.." style="height:100px" required></textarea>
-                  <input type="submit" name="submit" value="Kirim">
-                </form>
+            <div class="wishcontainer">
+              <form action="#" method="post">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama" placeholder="Nama.." required>
+                <label for="ucap">Ucapan</label>
+                <textarea id="ucap" name="ucap" placeholder="Ucapan Doa & Harapan.." style="height:100px" required></textarea>
+                <input type="submit" name="submit" value="Kirim">
+              </form>
+            </div>
+            <br>
+            <div class="wishdisplay">
+              <div class="wishdisplayname">
+                Riyandanu                            
               </div>
-              <br>
-              <div class="wishdisplay">
-                <div class="wishdisplayname">
-                  Riyandanu                            
-                </div>
-                <div class="" style="padding-bottom: 10px">
-                  Selamat untuk Jendro dan Sastro, Semoga dilancarkan segala urusannya yaa, kelak menjadi keluarga yang Sakinah Mawadah Warohmah, selalu diberikan kebahagiaan dan keberkahan selalu, serta cepet dapet momongan, aamiin                             
-                </div>
-                <div class="wishdisplayname">
-                  Arini                            
-                </div>
-                <div class="" style="padding-bottom: 10px">
-                  Selamaat Jendro &amp; pasangan! Barakallah.. Semoga jadi keluarga sakinah, mawadah wa rahmah ya kaliaann, dijadikan jodoh sampai maut memisahkan dan dipertemukan lagi di jannahNya, semoga bahagia mendominasi hidup baru kalian dan dipercayakan keturunan yang sholeh dan sholeha, Aamiinn😇                             
-                </div>
-                <div class="wishdisplayname">
-                  Tikasari                            
-                </div>
-                <div class="" style="padding-bottom: 10px">
-                  Semalat ya Jendro sayangg dan calon suami yang bentar lagi jadi suami.. Semoga lancar sampe hari H apapun itu.. Semoga kedepan bisa jadi keluarga kecil yang sakinah, mawaddah, &amp; warrahmah.. #hug&amp;lovefromtika                            
-                </div>
-                <div class="wishdisplayname">
-                  Afiani dan Zidan                            
-                </div>
-                <div class="" style="padding-bottom: 10px">
-                  MasyaAllah Tabrakallah semoga selalu diberikan kebahagian dan keberkahan dalam keluarga barunya ya Jendroa Putriii dan suami, segera di karuniai momongan dan Semoga jadi keluarga yg SAMAWA!😇❤❤❤                            
-                </div>
-                <div class="wishdisplayname">
-                  Mutiara Hanif                            
-                </div>
-                <div class="" style="padding-bottom: 10px">
-                  Dear mbak Jendro ku sayang, mbak kos paling bawel dan endel😘 Selamat telah menemukan teman hidup yg dinanti nanti sejak dulu. Semoga acaranya lancar, keduanya sehat selalu, tidak ada satu halangan apapun sampai hari H❤️❤️                             
-                </div>
-                <div class="wishdisplayname">
-                  Maharani WD                            
-                </div>
-                <div class="" style="padding-bottom: 10px">
-                  Selamaat Jendro &amp; Sastro! Barakallah.. Semoga jadi keluarga sakinah, mawadah wa rahmah ya kaliaann, dijadikan jodoh sampai maut memisahkan dan dipertemukan lagi di jannahNya, semoga bahagia mendominasi hidup baru kalian dan dipercayakan keturunan yang sholeh dan sholeha, Aamiinn😇                            
-                </div>
-                <div class="wishdisplayname">
-                  Tim Diyandra                            
-                </div>
-                <div class="" style="padding-bottom: 10px">
-                  Selamat bro dan pasangan semoga dimudahkan semua acaranya sampai setelahnya dan selamanya, jadi keluarga yang sakina mawaddah warrahman, bahagia selalu sampai kematian memisahkan...                             
-                </div>
+              <div class="" style="padding-bottom: 10px">
+                Selamat untuk Jendro dan Sastro, Semoga dilancarkan segala urusannya yaa, kelak menjadi keluarga yang Sakinah Mawadah Warohmah, selalu diberikan kebahagiaan dan keberkahan selalu, serta cepet dapet momongan, aamiin                             
+              </div>
+              <div class="wishdisplayname">
+                Arini                            
+              </div>
+              <div class="" style="padding-bottom: 10px">
+                Selamaat Jendro &amp; pasangan! Barakallah.. Semoga jadi keluarga sakinah, mawadah wa rahmah ya kaliaann, dijadikan jodoh sampai maut memisahkan dan dipertemukan lagi di jannahNya, semoga bahagia mendominasi hidup baru kalian dan dipercayakan keturunan yang sholeh dan sholeha, Aamiinn😇                             
+              </div>
+              <div class="wishdisplayname">
+                Tikasari                            
+              </div>
+              <div class="" style="padding-bottom: 10px">
+                Semalat ya Jendro sayangg dan calon suami yang bentar lagi jadi suami.. Semoga lancar sampe hari H apapun itu.. Semoga kedepan bisa jadi keluarga kecil yang sakinah, mawaddah, &amp; warrahmah.. #hug&amp;lovefromtika                            
+              </div>
+              <div class="wishdisplayname">
+                Afiani dan Zidan                            
+              </div>
+              <div class="" style="padding-bottom: 10px">
+                MasyaAllah Tabrakallah semoga selalu diberikan kebahagian dan keberkahan dalam keluarga barunya ya Jendroa Putriii dan suami, segera di karuniai momongan dan Semoga jadi keluarga yg SAMAWA!😇❤❤❤                            
+              </div>
+              <div class="wishdisplayname">
+                Mutiara Hanif                            
+              </div>
+              <div class="" style="padding-bottom: 10px">
+                Dear mbak Jendro ku sayang, mbak kos paling bawel dan endel😘 Selamat telah menemukan teman hidup yg dinanti nanti sejak dulu. Semoga acaranya lancar, keduanya sehat selalu, tidak ada satu halangan apapun sampai hari H❤️❤️                             
+              </div>
+              <div class="wishdisplayname">
+                Maharani WD                            
+              </div>
+              <div class="" style="padding-bottom: 10px">
+                Selamaat Jendro &amp; Sastro! Barakallah.. Semoga jadi keluarga sakinah, mawadah wa rahmah ya kaliaann, dijadikan jodoh sampai maut memisahkan dan dipertemukan lagi di jannahNya, semoga bahagia mendominasi hidup baru kalian dan dipercayakan keturunan yang sholeh dan sholeha, Aamiinn😇                            
+              </div>
+              <div class="wishdisplayname">
+                Tim Diyandra                            
+              </div>
+              <div class="" style="padding-bottom: 10px">
+                Selamat bro dan pasangan semoga dimudahkan semua acaranya sampai setelahnya dan selamanya, jadi keluarga yang sakina mawaddah warrahman, bahagia selalu sampai kematian memisahkan...                             
               </div>
             </div>
+          </div>
         </div>
         <div>
           <br>

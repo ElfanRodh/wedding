@@ -4,7 +4,6 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<link rel="icon" type="image/png" href="<?= base_url() ?>assets/demofavicon.png">
-		
 		<title><?= $couple->result_array()[1]['cpl_nama_panggilan'] ?> & <?= $couple->result_array()[0]['cpl_nama_panggilan'] ?> Wedding</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 		<meta name="description" content="Spesial mengundang untuk menghadiri pernikahan kami. <?= $couple->result_array()[1]['cpl_nama_panggilan'] ?>-<?= $couple->result_array()[0]['cpl_nama_panggilan'] ?>" />
@@ -17,7 +16,7 @@
 		<meta property="og:image" content="<?= base_url() ?>assets/demoogthumbnail.jpg" />
 		<meta property="og:title" content="UNDANGAN PERNIKAHAN | <?= $couple->result_array()[1]['cpl_nama_panggilan'] ?>-<?= $couple->result_array()[0]['cpl_nama_panggilan'] ?>" />
 		<meta property="og:description" content="Spesial mengundang untuk menghadiri pernikahan kami. <?= $couple->result_array()[1]['cpl_nama_panggilan'] ?>-<?= $couple->result_array()[0]['cpl_nama_panggilan'] ?>" />
-		<link rel="stylesheet" href="w34style.css">
+		<link rel="stylesheet" href="<?= base_url() ?>/w34style.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script type="text/javascript" src="<?= base_url() ?>atemplate/modernizr.custom.86080.js"></script>
