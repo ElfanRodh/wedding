@@ -804,7 +804,7 @@ section {
 
 .portfolio .portfolio-wrap:hover .portfolio-links {
     opacity: 1;
-    bottom: calc(50% - 50px);
+    /* bottom: calc(25% - 50px); */
 }
 
 
