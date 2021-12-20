@@ -807,6 +807,15 @@ section {
     /* bottom: calc(25% - 50px); */
 }
 
+.img-portfolio {
+    max-width: 75%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 1em;
+}
+
 
 /*--------------------------------------------------------------
 # Portfolio Details

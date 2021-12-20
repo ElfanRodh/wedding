@@ -243,11 +243,11 @@
         </div>
 
         <div class="row justify-content-center">
-          <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in">
+          <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" onclick="window.location.href = '#web'">
             <div class="icon-box icon-box-pink">
               <div class="icon"><i class="bx bx-globe"></i></div>
               <h4 class="title">
-                <a href="#">Undangan Website</a>
+                <a href="#web">Undangan Website</a>
               </h4>
               <p class="description">
                 Undangan Digital dalam bentuk Website yang siap untuk kamu bagikan kepada teman-teman kamu.
@@ -255,11 +255,11 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="100" onclick="window.location.href = '#video'">
             <div class="icon-box icon-box-cyan">
               <div class="icon"><i class="bx bx-slideshow"></i></div>
               <h4 class="title">
-                <a href="#">Undangan Video</a>
+                <a href="#video">Undangan Video</a>
               </h4>
               <p class="description">
                 Undangan Digital dalam bentuk Video, ceritakan momen-momen kamu dengan kualitas terbaik.
@@ -267,11 +267,11 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200" onclick="window.location.href = '#gambar'">
             <div class="icon-box icon-box-green">
               <div class="icon"><i class="bx bx-image"></i></div>
               <h4 class="title">
-                <a href="#">Undangan Gambar</a>
+                <a href="#gambar">Undangan Gambar</a>
               </h4>
               <p class="description">
                 Undangan Digital dalam bentuk Gambar, kamu bisa mengundang teman-temanmu untuk datang dalam acaramu.
@@ -289,8 +289,8 @@
     <section id="portfolio" class="portfolio">
       <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
-          <h2>Pilih Sendiri Desainmu</h2>
+        <div id="web" class="section-title" data-aos="fade-up">
+          <h2>Undangan Website</h2>
           <p>
             Kami menyediakan banyak desain yang sesuai dengan keinginanmu.
           </p>
@@ -423,6 +423,205 @@
               </div>
             </div>
           </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End Portfolio Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio2" class="portfolio">
+      <div class="container">
+
+        <div id="video" class="section-title" data-aos="fade-up">
+          <h2>Undangan Video</h2>
+          <p>
+            Kami menyediakan banyak desain yang sesuai dengan keinginanmu.
+          </p>
+        </div>
+
+        <!-- <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-flters2">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-basic2">Basic</li>
+              <li data-filter=".filter-premium2">Premium</li>
+            </ul>
+          </div>
+        </div> -->
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <!-- Basic -->
+          <div class="col-lg-6 col-md-6 portfolio-item filter-basic2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/sdPQF7N6j78" title="Video 01" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="text-center">
+              <h4>Video 01</h4>
+              <h6 style="text-decoration: line-through; color: red;">Rp. 150.000</h6>
+              <h5>Rp. 100.000</h5>
+            </div>
+          </div>
+          
+          <div class="col-lg-6 col-md-6 portfolio-item filter-basic2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_uYANT2bmKk" title="Video 02" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="text-center">
+              <h4>Video 02</h4>
+              <h6 style="text-decoration: line-through; color: red;">Rp. 150.000</h6>
+              <h5>Rp. 100.000</h5>
+            </div>
+          </div>
+
+          <!-- Premium -->
+          <!-- <div class="col-lg-6 col-md-6 portfolio-item filter-premium2">
+            <div class="portfolio-wrap text-center">
+              <img src="<?= base_url() ?>/assets/img/mockup/premium1.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Desain Premium 01</h4>
+                <h6 style="text-decoration: line-through; color: red;">Rp. 200.000</h6>
+                <h5>Rp. 150.000</h5>
+              </div>
+              <div class="portfolio-links">
+                <a href="<?= base_url() ?>/assets/img/mockup/premium1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Premium 1"><i class="bx bx-search"></i></a>
+                <a target="_blank" href="<?= site_url('premium/theme/1') ?>" title="Demo"><i class="bx bx-globe"></i></a>
+              </div>
+            </div>
+          </div> -->
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End Portfolio Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio3" class="portfolio">
+      <div class="container">
+        <div id="gambar" class="section-title" data-aos="fade-up">
+          <h2>Undangan Gambar</h2>
+          <p>
+            Kami menyediakan banyak desain yang sesuai dengan keinginanmu.
+          </p>
+        </div>
+
+        <!-- <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-flters2">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-basic2">Basic</li>
+              <li data-filter=".filter-premium2">Premium</li>
+            </ul>
+          </div>
+        </div> -->
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <!-- Basic -->
+          <div class="col-lg-6 col-md-6 portfolio-item filter-basic3 text-center">
+            <img src="<?= base_url() ?>/assets/img/gambar/img1.png" class="img-fluid img-portfolio" alt="">
+            <div class="">
+              <h4>Gambar 01</h4>
+              <h6 style="text-decoration: line-through; color: red;">Rp. 100.000</h6>
+              <h5>Rp. 75.000</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 portfolio-item filter-basic3 text-center">
+            <img src="<?= base_url() ?>/assets/img/gambar/img2.png" class="img-fluid img-portfolio" alt="">
+            <div class="">
+              <h4>Gambar 02</h4>
+              <h6 style="text-decoration: line-through; color: red;">Rp. 100.000</h6>
+              <h5>Rp. 75.000</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 portfolio-item filter-basic3 text-center">
+            <img src="<?= base_url() ?>/assets/img/gambar/img3.png" class="img-fluid img-portfolio" alt="">
+            <div class="">
+              <h4>Gambar 03</h4>
+              <h6 style="text-decoration: line-through; color: red;">Rp. 100.000</h6>
+              <h5>Rp. 75.000</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 portfolio-item filter-basic3 text-center">
+            <img src="<?= base_url() ?>/assets/img/gambar/img4.png" class="img-fluid img-portfolio" alt="">
+            <div class="">
+              <h4>Gambar 04</h4>
+              <h6 style="text-decoration: line-through; color: red;">Rp. 100.000</h6>
+              <h5>Rp. 75.000</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 portfolio-item filter-basic3 text-center">
+            <img src="<?= base_url() ?>/assets/img/gambar/img5.png" class="img-fluid img-portfolio" alt="">
+            <div class="">
+              <h4>Gambar 05</h4>
+              <h6 style="text-decoration: line-through; color: red;">Rp. 100.000</h6>
+              <h5>Rp. 75.000</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 portfolio-item filter-basic3 text-center">
+            <img src="<?= base_url() ?>/assets/img/gambar/img6.png" class="img-fluid img-portfolio" alt="">
+            <div class="">
+              <h4>Gambar 06</h4>
+              <h6 style="text-decoration: line-through; color: red;">Rp. 100.000</h6>
+              <h5>Rp. 75.000</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 portfolio-item filter-basic3 text-center">
+            <img src="<?= base_url() ?>/assets/img/gambar/img7.png" class="img-fluid img-portfolio" alt="">
+            <div class="">
+              <h4>Gambar 07</h4>
+              <h6 style="text-decoration: line-through; color: red;">Rp. 100.000</h6>
+              <h5>Rp. 75.000</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 portfolio-item filter-basic3 text-center">
+            <img src="<?= base_url() ?>/assets/img/gambar/img8.png" class="img-fluid img-portfolio" alt="">
+            <div class="">
+              <h4>Gambar 08</h4>
+              <h6 style="text-decoration: line-through; color: red;">Rp. 100.000</h6>
+              <h5>Rp. 75.000</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 portfolio-item filter-basic3 text-center">
+            <img src="<?= base_url() ?>/assets/img/gambar/img9.png" class="img-fluid img-portfolio" alt="">
+            <div class="">
+              <h4>Gambar 09</h4>
+              <h6 style="text-decoration: line-through; color: red;">Rp. 100.000</h6>
+              <h5>Rp. 75.000</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 portfolio-item filter-basic3 text-center">
+            <img src="<?= base_url() ?>/assets/img/gambar/img10.png" class="img-fluid img-portfolio" alt="">
+            <div class="">
+              <h4>Gambar 10</h4>
+              <h6 style="text-decoration: line-through; color: red;">Rp. 100.000</h6>
+              <h5>Rp. 75.000</h5>
+            </div>
+          </div>
+
+          <!-- Premium -->
+          <!-- <div class="col-lg-6 col-md-6 portfolio-item filter-premium2">
+            <div class="portfolio-wrap text-center">
+              <img src="<?= base_url() ?>/assets/img/mockup/premium1.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Desain Premium 01</h4>
+                <h6 style="text-decoration: line-through; color: red;">Rp. 200.000</h6>
+                <h5>Rp. 150.000</h5>
+              </div>
+              <div class="portfolio-links">
+                <a href="<?= base_url() ?>/assets/img/mockup/premium1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Premium 1"><i class="bx bx-search"></i></a>
+                <a target="_blank" href="<?= site_url('premium/theme/1') ?>" title="Demo"><i class="bx bx-globe"></i></a>
+              </div>
+            </div>
+          </div> -->
 
         </div>
 
