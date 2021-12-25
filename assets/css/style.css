@@ -808,7 +808,9 @@ section {
 }
 
 .img-portfolio {
-    max-width: 75%;
+    /* max-width: 75%; */
+    max-width: 35vh;
+    min-width: 35vh;
     position: relative;
     overflow: hidden;
     border-radius: 15px;
